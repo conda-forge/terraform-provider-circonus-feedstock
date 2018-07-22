@@ -14,14 +14,16 @@ Summary: The Terraform Circonus provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-circonus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-circonus-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-circonus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-circonus-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-circonus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-circonus-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-circonus-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-circonus-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-circonus-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-circonus-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-circonus-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-circonus-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-circonus/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-circonus/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--circonus-green.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-circonus.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-circonus.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-circonus.svg)](https://anaconda.org/conda-forge/terraform-provider-circonus) |
 
 Installing terraform-provider-circonus
 ======================================
