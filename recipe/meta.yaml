@@ -1,10 +1,10 @@
 {% set provider = "Circonus" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "9eaedf7c0dfe82a4ffe29b1292cfe9f007f1dde259f2fed880d8349505e86e8d" %}
+{% set sha256 = "13a9b1b42aeafbd557ddd0fb247dba551ca0c65620d799e023fc1723a80d6f50" %}
 {% set sha256_win64 = "df42b41b6fdfbb7ff204b848257a8d564a28b3cf98cd61f9a0f638df6abfb9cb" %}
 
 package:
@@ -20,7 +20,7 @@ source:
     sha256: {{ sha256_win64 }}  # [win64]
 
 build:
-  number: 1001
+  number: 0
   script:
     - XCOPY src\github.com\terraform-providers\{{ name|lower }}\{{ x4_plugin }}.exe %LIBRARY_BIN%  # [win]
 
