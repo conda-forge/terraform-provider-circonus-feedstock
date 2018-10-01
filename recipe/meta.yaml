@@ -1,5 +1,5 @@
 {% set provider = "Circonus" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
@@ -11,10 +11,10 @@ package:
 source:
   - folder: src/github.com/terraform-providers/{{ name|lower }}
     url: https://github.com/terraform-providers/{{ name }}/archive/v{{ version }}.tar.gz  # [not win]
-    sha256: 0fb90db49ff06f32208ac3337291a855d9f9fd7970b45ed8e52e903a719c7f4c  # [not win]
+    sha256: 15da4faab752f76c63f9ea87cd75d45ef84fbfd937102cc69918133de651b22e  # [not win]
 
     url: https://releases.hashicorp.com/{{ name }}/{{ version }}/{{ name }}_{{ version }}_windows_amd64.zip  # [win64]
-    sha256: 13a9b1b42aeafbd557ddd0fb247dba551ca0c65620d799e023fc1723a80d6f50  # [win64]
+    sha256: 9071ef3d8f914b08ce16660577525ca8d2b306036cf8e513541c245556dc7726  # [win64]
 
 build:
   number: 0
