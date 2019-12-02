@@ -1,6 +1,6 @@
 {% set provider = "Circonus" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "0.2.0" %}
+{% set version = "0.4.0" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
@@ -14,7 +14,7 @@ package:
 source:
   - folder:  {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: 15da4faab752f76c63f9ea87cd75d45ef84fbfd937102cc69918133de651b22e
+    sha256: a4a24ed4ddcce5613b3f52115b0b64a0ca238092be6c313f0d5b2c13cfdfecfb
 
 
 build:
